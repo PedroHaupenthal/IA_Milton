@@ -1,0 +1,2 @@
+# Software para analise de dados de safras de vinho utilizando IA
+Software desenvolvido com o intuido de saber a qualidade de determinado vinho sem que o mesmo precise ser provado, isso atraves da inserção dos dados de determinado vinho no sistema e a analise porterior baseada em um aprendizado feito para dois tipos distintos de vinho (uva branca e vermelha). Para isso foi criada uma rede neural em C, e um simples front-end em Java para preenchimento e visualização dos dados.
