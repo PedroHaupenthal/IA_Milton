@@ -1,2 +1,2 @@
-# Software para analise de dados da Bolsa de Valores utilizando IA
-Software desenvolvido com o intuido de saber a hora de compra e venda de ações dado determinado grau de risco, baseado na massa de dados adquirida. Para isso foi criada uma rede neural em C, e um simples front-end em Java para visualização dos dados.
+# BV analytics with AI
+Software developed with the intuition of knowing the time to buy and sell shares given a certain degree of risk, based on the mass of data acquired. For this, a neural network was created in C/C++
