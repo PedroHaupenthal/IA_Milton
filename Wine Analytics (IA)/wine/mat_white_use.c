@@ -25,7 +25,7 @@ int main()
     int i = 0, j, l;
     float output;
 
-    //------------------LER W's-----------------------------
+    //------------------READ W's-----------------------------
     w1[0][0] = -1.940398;
     w1[1][0] = 0.301121;
     w1[2][0] = -1.350568;
@@ -226,9 +226,9 @@ int main()
 
     FILE *in;
 
-    if ((in = fopen("C:\\Repository\\Development\\Wine Analytics (IA)\\Wine\\outputs\\wine.txt", "rt")) == NULL)
+    if ((in = fopen("C:\\Wine\\outputs\\wine.txt", "rt")) == NULL)
     {
-        printf("Nao foi possivel abrir o programa.\n");
+        printf("Unable to open file.\n");
         return 1;
     }
 
@@ -326,11 +326,11 @@ int main()
 
     //gravar resultado em arquivo txt
     FILE *pont_arq;
-    pont_arq = fopen("C:\\Repository\\Development\\Wine Analytics (IA)\\Wine\\outputs\\quality.txt", "w");
+    pont_arq = fopen("C:\\Wine\\outputs\\quality.txt", "w");
 
     if (pont_arq == NULL)
     {
-        printf("Ocorreu um erro ao salvar os dados.");
+        printf("There was an error saving the data..");
         return 1;
     }
 
@@ -338,7 +338,7 @@ int main()
 
     fclose(pont_arq);
 
-    printf("\n\nTreinamento finalizado.\n");
+    printf("\n\nTraining completed.\n");
     system("pause");
     //-----backpropagation----------------------
 }
