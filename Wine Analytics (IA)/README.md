@@ -5,7 +5,7 @@ Determines the quality of the wine given certain factors such as volatile and ci
 ## Network Architect
 The architecture is composed of 12 inputs, one of them being the bias, 12 elements in the first hidden layer, one of them being the bias and an output, referring to the quality of the wine.
 
-![cnn](./network.jpg)
+![cnn_network](./network.jpg)
 
 ## Classification
 It is the wine quality rating, ranging from 0 to 10, where 0 would be a very bad wine and 10 would be a very good wine.
